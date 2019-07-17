@@ -97,12 +97,12 @@
 
 ### Важные компоненты
 
-/ProgramsList/ImportantApps.md
+[Important Apps]:(/ProgramsList/ImportantApps.md)
 
 ### Устанавливаемое ПО
 
-/ProgramsList/InstallingApps.md
+[Installing Apps]:(/ProgramsList/InstallingApps.md)
 
 ### Портативное ПО
 
-/ProgramsList/PortableApps.md
+[Portable Apps]:(/ProgramsList/PortableApps.md)
