@@ -97,52 +97,12 @@
 
 ### Важные компоненты
 
-1. Microsoft Visual C++ 2005-2008-2010-2012-2013-2019 Redistributable Package
-2. Java
-3. Python
-4. .Net Framework
-5. DirectX 9 или выше
-6. Nodejs
-7. Adobe Flash Player - сейчас почти нигде не нужен
+/ProgramsList/ImportantApps.md
 
 ### Устанавливаемое ПО
 
-1. Google Chrome <https://www.google.ru/chrome/>
-2. Bandizip <https://www.bandisoft.com/bandizip/>
-3. Notepad++ <https://notepad-plus-plus.org/>
-4. K-Lite Codec Pack <https://www.codecguide.com/>
-5. VLC Media Player <https://www.videolan.org/vlc/>
-6. PotPlayer <http://potplayer.daum.net/?lang=ru>
-7. Git Bash <https://git-scm.com/download/>
-8. Typora <https://typora.io/>
-9. uTorrent
-10. Office
-11. WinRAR
-12. 7-zip <https://www.7-zip.org/>
-13. Internet Download Manager
-14. Firefox <https://www.mozilla.org/ru/firefox/new/>
-15. SumatraPDF <https://www.sumatrapdfreader.org/>
-16. XnView <https://www.xnview.com/>
-17. Adobe Photoshop
-18. HashTab
+/ProgramsList/InstallingApps.md
 
 ### Портативное ПО
 
-- Everything
-- OldNewExplorer
-- Telegram
-- SublimeText
-- Visual Studio Code
-- Tor Browser
-- 4K Video Downloader
-- AIDA64
-- Bandicam
-- cmder
-- HandBrake
-- MediaInfo GUI
-- ZDSoft Screen Recorder
-- Uninstall Tool
-- Unlocker
-- XnConvert
-- IrfanView
-- Explorer++
+/ProgramsList/PortableApps.md
