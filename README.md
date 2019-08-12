@@ -27,7 +27,7 @@
    5. В "Учетные записи" открываем пункт "Варианты входа" и отключаем автоматический перезапуск приложений
    6. В "Персонализация" переходим в пункт "Цвета" и выбираем цвет "Темный"
    7. В "Персонализация" переходим в пункт "Пуск" и отключаем "Иногда показывать предложения в меню Пуск"
-   
+
 4. Скачиваем все драйвера с официального сайта ноутбука и устанавливаем их
 
     * С драйверами для аудио возможно нужно поэкспериментировать, а так же с их настройками, т.к. в некоторых случаях при воспроизведении звука он слышен только через пару секунд после начала воспроизведения.
@@ -51,27 +51,26 @@
 
    * Удалить "Проверить с помощью Windows Defender" из контекстного меню. Нужно создать файл с расширением .reg и вставить туда этот текст
 
-     
-     ```
+     ```plaintext
      Windows Registry Editor Version 5.00
-     
+
      [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\EPP]
-     
+
      [-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\EPP]
      ```
 
    * Удалить "Восстановить прежнюю версию" и "Предыдущие версии" из контекстного меню. Нужно создать файл с расширением .reg и вставить туда этот текст
-     
-     ```
+
+     ```plaintext
      Windows Registry Editor Version 5.00
-     
+
      [HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\PreviousVersions]
-     
+
      "DisableLocalPage"=dword:00000001
      "DisableRemotePage"=dword:00000001
-     
+
      [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PreviousVersions]
-     
+
      "DisableLocalPage"=dword:00000001
      "DisableRemotePage"=dword:00000001
      ```
